@@ -1,0 +1,46 @@
+body {
+    background-color: orange;
+    font-family: Roboto;
+    margin: 10px;
+}
+.movies-header .logo {
+    font-family: Anton;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    color: black;
+    padding: 10px 0;
+    background: gray;
+}
+
+.movies-filters {
+    border-bottom: 1px solid black;
+}
+
+.movie-filters .open {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 250;
+    padding: 12px;
+}
+.movie-filters .open .fa {
+    margin-right: 5px;
+    color: red;
+    transition: all 0.5s ease;
+}
+.movie-filters .open.active .fa {
+    -webkit-transform: rotate(-180deg);
+}
+.movie-filters .filter-container {
+    border-top: 3px solid black;
+    padding: 15px;
+    background: rgb(139, 132, 132);
+    display: none 
+}
+.movie-filters .filter-container label {
+    font-size: 15px;
+}
+.movie-filters .filter-container select {
+    margin-right: 30px;
+}
+

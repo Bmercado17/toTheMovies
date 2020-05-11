@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <script src="/scripts/myScript.js"></script> -->
+<link rel="stylesheet" href="/styles/myStyleSheet.css">
+    </head>
+    <body>
+        <!--this is where we start the category of movies-->
+        <div class="movies-header">
+            <div class="logo">Best movies</div>
+            <div class="movie-filters">
+                <div class="filter open"> <!--this is to open the toggle up and down-->
+                    <span class="fa fa-arrow-circle-o-down"></span>
+                    <span class="btn-title">Filter By</span>
+                </div>
+        <!--this is the body of the selector where we filter our choice-->        
+                <div class="filter-container">
+                    <label>Category</label>
+                    <select id="categories">
+                    <option selected value="all">All Categories</option>
+                </select>
+                <label>Directors</label>
+                    <select id="directors">
+                    <option selected value="all">All Directors</option>
+                </select>
+                </div>
+            </div>
+        </div>
+        <script src="/scripts/myScript.js"></script>
+    </body>
+</html>
